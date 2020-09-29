@@ -119,4 +119,18 @@ main .group right
   padding-top: 20%;
 }
 
+@media only screen and (min-device-width: 900px){
+   section
+  {
+  justify-content: center;
+  }
+  main .group
+  {
+    width: 60%;
+  }
+  .aboutmeImg
+  {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
