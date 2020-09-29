@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header section */
+header {
+    height: 105px;
+}
+
+header h1{
+  text-align: center;
+  color: rgb(83, 80, 80);
+  font-weight: 400;
+}
+
+header nav ul{
+display: flex;
+justify-content: center;
+list-style-type: none;
+
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: rgb(83, 80, 80);
+  transition: all 0.5s;
+  margin-right: 20px;
+  font-size: 14px;
+}
+header a:hover{
+  color:rgb(43, 40, 40);
+  font-weight: bold;
+}
+
+/* main section */
+main {
+    flex: auto;
+    background-color: #ccc;
+    width: 100%;
+}
+
+main .group
+{
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  /*width: 60%;*/
+}
+
+main .group left
+{
+  width: 50%
+}
+
+main .group right
+{
+  width: 50%;
+  padding:5px;
+}
+.olWrapper
+{
+  margin-top: 5%;
+}
+main > div > ol > li > p
+{
+  font-size: 28px;
+}
+
+img{
+  width: 100%;
+}
+
+h2, h3, h4, p{
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+  padding: 2px;
+}
+section item{
+  border: 2px solid gray;
+  margin: 2px;
+  background-color: whitesmoke;
+}
+.contact ol {
+  margin: 0px auto;
+  width: 80px;
+}
+.contact ol a {
+  color: black;
+  text-decoration: none;
+}
+/* footer section */
+footer {
+    height: 25px;
+}
+
+@media only screen and (min-device-width: 768px){
+main .group
+{
+  width: 100%;
+}
+main .group right
+{
+  width: 50%;
+  padding-top: 20%;
+}
+
+}
